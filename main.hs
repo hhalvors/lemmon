@@ -1,3 +1,5 @@
+import qualified Data.Set as Set
+
 data Proposition = P | Q | IfThen Proposition Proposition
   deriving (Show, Eq)
 
