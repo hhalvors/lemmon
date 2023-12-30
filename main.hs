@@ -5,6 +5,7 @@ data Justification = Assumption | ModusPonens Int Int
   deriving (Show, Eq)
 
 data ProofLine = ProofLine {
+  dependencies :: [Int],
   proposition :: Proposition,
   justification :: Justification
 } deriving (Show)
