@@ -6,6 +6,10 @@ import Text.Parsec.String (Parser)
 import qualified Data.Set as Set
 import Control.Applicative ((<|>))
 
+-- to do: it might be nice to make the parsers more error
+-- tolerant. e.g. if somebody forgets to put a space between 1,2 and
+-- MP, then the parser might be able to guess the right answer
+
 -- Assuming EatProofLine is defined somewhere in your code
 eatProofLine :: String -> String  -- Replace with the actual type signature
 
