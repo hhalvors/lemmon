@@ -25,9 +25,9 @@ later to add support for substructural logics.
 	
 	4. Push all assumptions to the start
 	
-	5. Convert to Fitch style
+	5. Convert to and from Fitch style
 	
-	6. Convert from Fitch style
+	6. Convert to and from Sequent style
 	
 5. Parser from String to Proposition
 
